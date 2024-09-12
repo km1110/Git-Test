@@ -20,9 +20,5 @@ class Person:
 
     def exercise(self):
         self.weight -= 1
-
-    def eat(self):
-        self.weight += 1
-
-    def exercise(self):
-        self.weight -= 1
+        if self.age < 10:
+            self.height += 1
