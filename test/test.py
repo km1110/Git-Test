@@ -23,3 +23,6 @@ class Person:
 
     def eat(self):
         self.weight += 1
+
+    def exercise(self):
+        self.weight -= 1
